@@ -16,6 +16,9 @@ __mtime__ = '2018/11/15'
                   ┃┫┫  ┃┫┫
                   ┗┻┛  ┗┻┛
 """
+######拦截器配置#########
+from web.interceptor.Interceptor import *
+
 from web.controls.index import route_index
 from web.controls.user.User import route_user
 from application import app
